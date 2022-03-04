@@ -7,7 +7,7 @@ Workspace files are mounted from the local file system or copied or cloned into 
 
 ## Execute
 To create an image:  
-    docker image build -t name:tag
+    $docker image build -t name:tag
 
 To run a container:  
-    docker container run -it --rm --mount type=bind,src=${pwd}/src,dst=/tmp/src name:tag /bin/bash
+    $docker container run -it --rm --mount type=bind,src=${pwd}/src,dst=/tmp/src name:tag /bin/bash
