@@ -5,6 +5,9 @@ The Visual Studio Code Remote - Containers extension lets you use a Docker conta
 
 Workspace files are mounted from the local file system or copied or cloned into the container. Extensions are installed and run inside the container, where they have full access to the tools, platform, and file system. This means that you can seamlessly switch your entire development environment just by connecting to a different container.
 
+Pour plus d'informations, veuillez consulter l'url suivant:
+https://code.visualstudio.com/docs/remote/containers
+
 ## Execute
 To create an image:  
 ```bash
